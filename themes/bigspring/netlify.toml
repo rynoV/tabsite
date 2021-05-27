@@ -2,7 +2,29 @@
 publish = "public"
 command = "hugo --gc --bigspring"
 
-[build.environment]
+[context.production.environment]
 HUGO_VERSION = "0.74.3"
-HUGO_THEME = "repo"
-HUGO_BASEURL = "/"
+HUGO_ENV = "production"
+HUGO_ENABLEGITINFO = "true"
+
+[context.split1]
+command = "hugo --gc --bigspring --enableGitInfo"
+
+[context.split1.environment]
+HUGO_VERSION = "0.74.3"
+HUGO_ENV = "production"
+
+[context.deploy-preview]
+command = "hugo --gc --bigspring --buildFuture -b $DEPLOY_PRIME_URL"
+
+[context.deploy-preview.environment]
+HUGO_VERSION = "0.74.3"
+
+[context.branch-deploy]
+command = "hugo --gc --bigspring -b $DEPLOY_PRIME_URL"
+
+[context.branch-deploy.environment]
+HUGO_VERSION = "0.74.3"
+
+[context.next.environment]
+HUGO_ENABLEGITINFO = "true"

@@ -1,11 +1,6 @@
 [build]
 publish = "public"
-command = """hugo \
-  --source \
-  --config config/_default/config.toml \
-  --themesDir ../.. \
-  --theme repo \
-  --baseURL http://websitewithtabs.netlify.com/"""
+command = "hugo --gc --bigspring"
 
 [build.environment]
 HUGO_VERSION = "0.74.3"

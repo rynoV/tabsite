@@ -1,2 +1,9 @@
 name: Action Hugo
-uses: kevvurs/action-hugo@v1.0-rc2
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: kevvurs/action-hugo@v1.0-rc2

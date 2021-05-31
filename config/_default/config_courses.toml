@@ -1,0 +1,55 @@
+baseURL = "http://kira-program.github.io/M2Mcourses/"
+languageCode = "en-us"
+title = "M2M Courses"
+theme = "slate"
+
+[ params ]
+BackgroundImages = ["bg/1.jpg", "bg/2.jpg", "bg/3.jpg", "bg/4.jpg", "bg/5.jpg"]
+Favicon = "favicon.ico"
+BackgroundStyle = "#657383"
+OpenLinksInNewWindow = true
+
+[[ params.nav ]]
+name = "Python Basics"
+tag = "python"
+icon = "code"
+
+[[ params.nav ]]
+name = "Data Science"
+tag = "data"
+icon = "database"
+
+[[ params.nav ]]
+name = "AI"
+tag = "ai"
+icon = "braille"
+
+[[ params.nav ]]
+name = "3D Printing"
+tag = "cad"
+icon = "cube"
+
+[[ params.nav ]]
+name = "VR"
+tag = "vr"
+icon = "eye"
+
+[[ params.nav ]]
+name = "AR"
+tag = "ar"
+icon = "cubes"
+
+[[ params.nav ]]
+name = "Web Design"
+tag = "web"
+icon = "laptop"
+
+[[ params.nav ]]
+name = "App Design"
+tag = "app"
+icon = "mobile"
+
+[[ params.nav ]]
+name = "Embedded Systems"
+tag = "embedded"
+icon = "microchip"

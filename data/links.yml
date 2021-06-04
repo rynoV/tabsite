@@ -1,0 +1,325 @@
+tiles:
+-
+  name: "Intro to Python Programming"
+  url: "https://courses.m2mtechconnect.com/courses/python-introduction"
+  img: "logos/python.svg"
+  bg_color: "95FF8D"
+  tags: ["python"]
+-
+  name: "Intro to Python Concepts"
+  url: "https://courses.m2mtechconnect.com/courses/python-concepts"
+  img: "logos/python.svg"
+  bg_color: "95FF8D"
+  tags: ["python"]
+-
+  name: "Rock, Paper, Scissors"
+  url: "https://courses.m2mtechconnect.com/courses/python-coding-fun"
+  img: "logos/python.svg"
+  bg_color: "F8FD9C"
+  tags: ["python"]
+-
+  name: "Connect 4"
+  url: "https://courses.m2mtechconnect.com/courses/connect4"
+  img: "logos/python.svg"
+  bg_color: "F8FD9C"
+  tags: ["python"]
+-
+  name: "Stacks Game"
+  url: "https://courses.m2mtechconnect.com/courses/stacks-game"
+  img: "logos/python.svg"
+  bg_color: "F8FD9C"
+  tags: ["python"]
+-
+  name: "Space Invaders"
+  url: "https://courses.m2mtechconnect.com/courses/space-invaders"
+  img: "logos/python.svg"
+  bg_color: "F8FD9C"
+  tags: ["python"]
+-
+  name: "Snake Game"
+  url: "https://courses.m2mtechconnect.com/courses/snake-game-using-python"
+  img: "logos/python.svg"
+  bg_color: "F8FD9C"
+  tags: ["python"]
+-
+  name: "Pokemon Game"
+  url: "https://courses.m2mtechconnect.com/courses/pokemon-game-using-python"
+  img: "logos/python.svg"
+  bg_color: "F8FD9C"
+  tags: ["python"]
+-
+  name: "Mario Game"
+  url: "https://courses.m2mtechconnect.com/courses/mario-game-using-python"
+  img: "logos/python.svg"
+  bg_color: "F8FD9C"
+  tags: ["python"]
+-
+  name: "Beginner Python Workshop"
+  url: "https://courses.m2mtechconnect.com/courses/coding-fun-with-python"
+  img: "logos/python.svg"
+  tags: ["python"]
+-
+  name: "Intro to Bokeh"
+  url: "https://courses.m2mtechconnect.com/courses/data-science"
+  img: "logos/data.svg"
+  bg_color: "C39CFD"
+  tags: ["data"]
+-
+  name: "Bar and Column Charts"
+  url: "https://courses.m2mtechconnect.com/courses/bar-and-column-charts"
+  img: "logos/data.svg"
+  bg_color: "C39CFD"
+  tags: ["data"]
+-
+  name: "Scatter and Line Charts"
+  url: "https://courses.m2mtechconnect.com/courses/scatter-and-line-charts"
+  img: "logos/data.svg"
+  bg_color: "C39CFD"
+  tags: ["data"]
+-
+  name: "Interactive Visualizations"
+  url: "https://courses.m2mtechconnect.com/courses/interactive-visualizations"
+  img: "logos/data.svg"
+  bg_color: "C39CFD"
+  tags: ["data"]
+-
+  name: "Cleaning, preparing, organizating data"
+  url: "https://courses.m2mtechconnect.com/courses/cleaning-data"
+  img: "logos/data.svg"
+  bg_color: "FD9CCA"
+  tags: ["data"]
+-
+  name: "Calculation with Data"
+  url: "https://courses.m2mtechconnect.com/courses/calculation-with-data"
+  img: "logos/data.svg"
+  bg_color: "FD9CCA"
+  tags: ["data"]
+
+-
+  name: "Retrospection"
+  url: "https://courses.m2mtechconnect.com/courses/python-data-science-retrospection"
+  img: "logos/data.svg"
+  bg_color: "FD9CCA"
+  tags: ["data"]
+
+-
+  name: "Data Science Workshop"
+  url: "https://courses.m2mtechconnect.com/courses/python-and-data-science"
+  img: "logos/data.svg"
+  tags: ["data"]
+
+-
+  name: "AI Marketing"
+  url: "https://courses.m2mtechconnect.com/courses/ai-marketing-advanced-level"
+  img: "logos/ai.svg"
+  tags: ["ai"]
+
+-
+  name: "Python & AI"
+  url: "https://courses.m2mtechconnect.com/courses/python-and-ai-advanced-level"
+  img: "logos/ai.svg"
+  tags: ["ai"]
+
+-
+  name: "Creating & Visualizing Objects in 3D"
+  url: "https://courses.m2mtechconnect.com/courses/3dprinting-creatingin3dspace"
+  img: "logos/3dprinting.svg"
+  bg_color: "FFB567"
+  tags: ["cad"]
+
+-
+  name: "3D Design Using CodeBlocks"
+  url: "https://courses.m2mtechconnect.com/courses/3d-printing-codeblocks"
+  img: "logos/3dprinting.svg"
+  bg_color: "FFB567"
+  tags: ["cad"]
+
+-
+  name: "Pencil Holder"
+  url: "https://courses.m2mtechconnect.com/courses/3d-printing-pencil-holder-design"
+  img: "logos/3dprinting.svg"
+  bg_color: "67ADFF"
+  tags: ["cad"]
+
+-
+  name: "Eiffel Tower"
+  url: "https://courses.m2mtechconnect.com/courses/3d-printing-eiffeltower"
+  img: "logos/3dprinting.svg"
+  bg_color: "67ADFF"
+  tags: ["cad"]
+
+-
+  name: "Jet Design"
+  url: "https://courses.m2mtechconnect.com/courses/3d-printing-create-jet-design"
+  img: "logos/3dprinting.svg"
+  bg_color: "67ADFF"
+  tags: ["cad"]
+
+-
+  name: "Tower of Pisa"
+  url: "https://courses.m2mtechconnect.com/courses/3d-printing-creating-design-for-tower-of-pisa"
+  img: "logos/3dprinting.svg"
+  bg_color: "67ADFF"
+  tags: ["cad"]
+
+-
+  name: "Animal Facts Project"
+  url: "https://courses.m2mtechconnect.com/courses/vr-design-creating-animal-facts"
+  img: "logos/vr.svg"
+  bg_color: "84FFBF"
+  tags: ["vr"]
+
+-
+  name: "Zoo Project"
+  url: "https://courses.m2mtechconnect.com/courses/vr-design-creating-zoo-project"
+  img: "logos/vr.svg"
+  bg_color: "84FFBF"
+  tags: ["vr"]
+
+-
+  name: "VR & More- Beginner"
+  url: "https://courses.m2mtechconnect.com/courses/virtual-reality-and-more"
+  img: "logos/vr.svg"
+  tags: ["vr"]
+
+-
+  name: "Face Trackers, Face Mesh & Objects"
+  url: "https://courses.m2mtechconnect.com/courses/ar-design-adding-face-trackers"
+  img: "logos/ar.svg"
+  bg_color: "9396FF"
+  tags: ["ar"]
+
+-
+  name: "Disney Character Selector"
+  url: "https://courses.m2mtechconnect.com/courses/ar-design-disney-character-selector"
+  img: "logos/ar.svg"
+  bg_color: "9396FF"
+  tags: ["ar"]
+
+-
+  name: "Circling Emoji"
+  url: "https://courses.m2mtechconnect.com/courses/ar-design-circling-emoji"
+  img: "logos/ar.svg"
+  bg_color: "9396FF"
+  tags: ["ar"]
+
+-
+  name: "Interactive Quiz"
+  url: "https://courses.m2mtechconnect.com/courses/ar-design-interactive-quiz"
+  img: "logos/ar.svg"
+  bg_color: "9396FF"
+  tags: ["ar"]
+
+-
+  name: "Creating a Blog Website"
+  url: "https://courses.m2mtechconnect.com/courses/web-design-blog-website"
+  img: "logos/web.svg"
+  bg_color: "FFA8FB"
+  tags: ["web"]
+
+-
+  name: "Creating a Business Website"
+  url: "https://courses.m2mtechconnect.com/courses/web-design-creating-a-website-for-business"
+  img: "logos/web.svg"
+  bg_color: "FFA8FB"
+  tags: ["web"]
+
+-
+  name: "Creating a Social Website"
+  url: "https://courses.m2mtechconnect.com/courses/web-design-creating-website-social-media"
+  img: "logos/web.svg"
+  bg_color: "FFA8FB"
+  tags: ["web"]
+
+-
+  name: "Creating a Resume Website"
+  url: "https://courses.m2mtechconnect.com/courses/web-design-creating-resume-website"
+  img: "logos/web.svg"
+  bg_color: "FFA8FB"
+  tags: ["web"]
+
+-
+  name: "Beginner Website Design Workshop"
+  url: "https://courses.m2mtechconnect.com/courses/building-stunning-websites"
+  img: "logos/web.svg"
+  tags: ["web"]
+
+-
+  name: "Intermediate Website Design Workshop"
+  url: "https://courses.m2mtechconnect.com/courses/web-design-and-javascript-intermediate-level"
+  img: "logos/web.svg"
+  tags: ["web"]
+
+-
+  name: "Image Collage App"
+  url: "https://courses.m2mtechconnect.com/courses/app-design-image-collage"
+  img: "logos/app.svg"
+  bg_color: "FFF18B"
+  tags: ["app"]
+
+-
+  name: "No Peeking Game"
+  url: "https://courses.m2mtechconnect.com/courses/app-design-no-peeking-game-app"
+  img: "logos/app.svg"
+  bg_color: "FFF18B"
+  tags: ["app"]
+
+-
+  name: "Rocket Game"
+  url: "https://courses.m2mtechconnect.com/courses/app-design-rocket-game-app"
+  img: "logos/app.svg"
+  bg_color: "FFF18B"
+  tags: ["app"]
+
+-
+  name: "Notes App"
+  url: "https://courses.m2mtechconnect.com/courses/app-design-notes-app"
+  img: "logos/app.svg"
+  bg_color: "FFF18B"
+  tags: ["app"]
+
+-
+  name: "App Design with Flutter workshop"
+  url: "https://courses.m2mtechconnect.com/courses/app-design-flutter-intermediate-level"
+  img: "logos/app.svg"
+  tags: ["app"]
+
+-
+  name: "Traffic Light Project"
+  url: "https://courses.m2mtechconnect.com/courses/arduino"
+  img: "logos/circuit.svg"
+  bg_color: "FF8D8D"
+  tags: ["embedded"]
+
+-
+  name: "Walkie Talkie Project"
+  url: "https://courses.m2mtechconnect.com/courses/microbit"
+  img: "logos/circuit.svg"
+  bg_color: "FF8D8D"
+  tags: ["embedded"]
+
+-
+  name: "7 Segment Display"
+  url: "https://courses.m2mtechconnect.com/courses/digital-logic"
+  img: "logos/circuit.svg"
+  bg_color: "FF8D8D"
+  tags: ["embedded"]
+
+-
+  name: "Tetris Project"
+  url: "https://courses.m2mtechconnect.com/courses/tetris-and-concepts-using-microbit-makecode"
+  img: "logos/circuit.svg"
+  bg_color: "FF8D8D"
+  tags: ["embedded"]
+
+-
+  name: "Gaming with Embedded Systems Beginner"
+  url: "https://courses.m2mtechconnect.com/courses/gaming-with-embedded-system"
+  img: "logos/circuit.svg"
+  tags: ["embedded"]
+
+-
+  name: "Internet of Things Intermediate"
+  url: "https://courses.m2mtechconnect.com/courses/internet-of-things-intermediate-level"
+  img: "logos/circuit.svg"
+  tags: ["embedded"]

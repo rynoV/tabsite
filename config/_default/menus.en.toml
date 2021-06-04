@@ -6,7 +6,7 @@ weight = 1
 
 [[main]]
 name = "Courses"
-url = "https://kira-program.github.io/M2Mcourses/"
+url = "courses"
 weight = 2
 
 [[main]]

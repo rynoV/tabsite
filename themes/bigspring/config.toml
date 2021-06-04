@@ -31,6 +31,8 @@ icon_font = "Font Awesome 5 Free"
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/slate/slate.css"
 
 # JS Plugins
 [[params.plugins.js]]
@@ -42,3 +44,9 @@ link = "plugins/slick/slick.min.js"
 [[params.plugins.js]]
 link = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/js/all.min.js"
 attributes = "crossorigin='anonymous' defer='defer' data-search-pseudo-elements"
+[[params.plugins.js]]
+link = "plugins/tinycolor.js"
+[[params.plugins.js]]
+link = "plugins/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/slate/slate.js"

@@ -1,3 +1,48 @@
 baseURL = "http://websitewithtabs.netlify.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+
+[[ params.nav ]]
+name = "Python Basics"
+tag = "python"
+icon = "code"
+
+[[ params.nav ]]
+name = "Data Science"
+tag = "data"
+icon = "database"
+
+[[ params.nav ]]
+name = "AI"
+tag = "ai"
+icon = "braille"
+
+[[ params.nav ]]
+name = "3D Printing"
+tag = "cad"
+icon = "cube"
+
+[[ params.nav ]]
+name = "VR"
+tag = "vr"
+icon = "eye"
+
+[[ params.nav ]]
+name = "AR"
+tag = "ar"
+icon = "cubes"
+
+[[ params.nav ]]
+name = "Web Design"
+tag = "web"
+icon = "laptop"
+
+[[ params.nav ]]
+name = "App Design"
+tag = "app"
+icon = "mobile"
+
+[[ params.nav ]]
+name = "Embedded Systems"
+tag = "embedded"
+icon = "microchip"

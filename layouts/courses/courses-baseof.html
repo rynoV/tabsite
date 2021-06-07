@@ -1,19 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="{{ site.LanguageCode | default `en-US` }}">
+
 <head>
-    <title>{{ .Title }}</title>{{ if .Site.Params.Favicon }}
-    <link rel="shortcut icon" href="{{ .Site.Params.Favicon }}">{{ end }}
-    <link rel="stylesheet" href="css/slate.css">
+	{{ partial "head.html" . }}
+	{{ partialCached "courses-style.html" . }}
+	<base href="{{ .Site.BaseURL }}">
 </head>
 
 <body{{ if .Site.Params.BackgroundStyle }} style='background: {{ .Site.Params.BackgroundStyle | safeCSS }};'{{ end }}
 {{- if .Site.Params.BackgroundImages }} data-backgrounds='{{ range .Site.Params.BackgroundImages }}{{ . }},{{ end }}'{{- end }}>
-
-{{ partial "courses_nav.html" . }}
-
-<div class="container">{{ partial "tile_slate.html" . }}
-</div>
-
+	{{ partialCached "preloader.html" . }}
+	<main>
+		{{ block "main" . }}{{ end }}
+	</main>
+	{{ partialCached "script.html" . }}
 </body>
+
 <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
-<script src="js/slate.js"></script>
+
 </html>

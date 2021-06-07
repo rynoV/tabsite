@@ -46,3 +46,9 @@ icon = "mobile"
 name = "Embedded Systems"
 tag = "embedded"
 icon = "microchip"
+
+[[params.plugins.css]]
+link = "plugins/slate/slate.css"
+
+[[params.plugins.js]]
+link = "plugins/slate/slate.js"

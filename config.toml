@@ -1,4 +1,4 @@
-baseURL = "http://websitewithtabs.netlify.com/"
+baseURL = "http://websitewithtabs.netlify.com"
 languageCode = "en-us"
 title = "My New Hugo Site"
 
@@ -8,48 +8,63 @@ BackgroundStyle = "#657383"
 
 [[ params.nav ]]
 name = "Python Basics"
+section = "courses"
 tag = "python"
 icon = "code"
 
 [[ params.nav ]]
 name = "Data Science"
+section = "courses"
 tag = "data"
 icon = "database"
 
 [[ params.nav ]]
 name = "AI"
+section = "courses"
 tag = "ai"
 icon = "braille"
 
 [[ params.nav ]]
 name = "3D Printing"
+section = "courses"
 tag = "cad"
 icon = "cube"
 
 [[ params.nav ]]
 name = "VR"
+section = "courses"
 tag = "vr"
 icon = "eye"
 
 [[ params.nav ]]
 name = "AR"
+section = "courses"
 tag = "ar"
 icon = "cubes"
 
 [[ params.nav ]]
 name = "Web Design"
+section = "courses"
 tag = "web"
 icon = "laptop"
 
 [[ params.nav ]]
 name = "App Design"
+section = "courses"
 tag = "app"
 icon = "mobile"
 
 [[ params.nav ]]
 name = "Embedded Systems"
+section = "courses"
 tag = "embedded"
 icon = "microchip"
+
+[[ params.nav ]]
+name = "Home"
+section = ""
+tag = ""
+icon = "home"
 
 [[params.plugins.js]]
 link = "plugins/slate/slate.js"
